@@ -1,0 +1,575 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+body {
+  font-style: italic;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+}
+.page {
+  width: 1200px;
+  margin: 0 auto;
+}
+.top {
+  text-align: right;
+  padding: 10px 0;
+}
+.top a {
+  color: #35488c;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.nav {
+  background: #35488c;
+  position: relative;
+  padding-left: 150px;
+}
+.nav .logo {
+  position: absolute;
+  top: -30px;
+  left: 20px;
+}
+.nav .logo img {
+  height: 80px;
+}
+.nav a {
+  color: #fff;
+}
+.nav ul {
+  display: flex;
+  height: 60px;
+}
+.nav ul li {
+  line-height: 60px;
+  flex: 1;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+}
+.nav ul li > a {
+  display: block;
+  height: 60px;
+}
+.nav ul li .mask {
+  position: absolute;
+  top: 60px;
+  background: #fff;
+  z-index: 999;
+  display: none;
+  width: 100%;
+}
+.nav ul li .mask a {
+  color: #000;
+  height: 60px;
+  line-height: 60px;
+  display: block;
+  width: 100%;
+}
+.nav ul li .mask a:hover {
+  background: #35488c;
+  color: #fff;
+}
+.nav ul li:hover .mask {
+  display: block;
+}
+.nav ul .mask:hover {
+  display: block;
+}
+.banner {
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner h2 {
+  position: absolute;
+  left: 100px;
+  bottom: 30px;
+  color: #fff;
+  font-size: 50px;
+}
+.banner3 {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  background: url(3.jpg) center left no-repeat;
+}
+.banner3 h2 {
+  position: absolute;
+  right: 100px;
+  bottom: 30px;
+  color: #fff;
+  font-size: 50px;
+}
+.about-box .row1 {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+}
+.about-box .row1 img {
+  width: 40%;
+  height: 500px;
+  object-fit: cover;
+}
+.about-box .row1 .text {
+  padding: 30px;
+}
+.about-box .row1 .text p {
+  line-height: 1.5;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.about-box .banner2 {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.about-box .banner2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-box .banner2 h2 {
+  position: absolute;
+  right: 100px;
+  bottom: 30px;
+  color: #fff;
+  font-size: 50px;
+}
+.about-box .row2 p {
+  line-height: 1.5;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.foot {
+  background: #e2e9ff;
+}
+.foot .foot-top {
+  padding: 20px 50px;
+  display: flex;
+}
+.foot .foot-logo img {
+  height: 100px;
+  margin-right: 100px;
+}
+.foot ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.foot ul li {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.foot ul li img {
+  height: 30px;
+  margin-right: 20px;
+}
+.foot .copy {
+  text-align: center;
+  color: #fff;
+  background: #35488c;
+  font-style: normal;
+  padding: 10px 0;
+  font-weight: 300;
+  font-size: 18px;
+}
+.courseware-box {
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.courseware-box .c-info {
+  width: 48%;
+  background: #8ac7ff;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.courseware-box .c-info2 {
+  width: 48%;
+  margin-bottom: 20px;
+  background: #35488c;
+  color: #fff;
+  padding: 20px;
+}
+.courseware-box h4 {
+  font-size: 18px;
+  height: 60px;
+}
+.courseware-box p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.courseware-box li {
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 14px;
+  font-weight: normal;
+}
+.courseware-box .btn {
+  width: 100%;
+  text-align: center;
+  margin: 30px auto;
+}
+.courseware-box .more {
+  width: 250px;
+  height: 80px;
+  line-height: 80px;
+  background: #35488c;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+}
+.banner4 {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  background: url(project1.jpg) center left no-repeat;
+}
+.banner4 h2 {
+  position: absolute;
+  right: 100px;
+  bottom: 30px;
+  color: #fff;
+  font-size: 50px;
+}
+
+
+
+
+.home-box .row1 {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+}
+.home-box .row1 img {
+  width: 60%;
+  height: 300px;
+  object-fit: cover;
+}
+.home-box .row1 .text {
+  padding: 30px;
+  color: #007FF4;
+}
+.home-box .row1 .text p {
+  line-height: 1.5;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.home-box .row2 {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.home-box .row2 img {
+  width: 60%;
+  height: 300px;
+  object-fit: cover;
+}
+.home-box .row2 .text {
+  padding: 30px;
+  color: #486fff;
+}
+.home-box .row2 .text p {
+  line-height: 1.5;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+
+#course-grid {  
+  display: flex;  
+  flex-direction: row;    
+  flex-wrap: wrap;  
+  justify-content: space-around; /* Evenly distribute horizontally with space */  
+  align-items: stretch; /* Stretch vertically to the height of the container */  
+  width: 100%;  
+}  
+  
+.course-item {   
+  flex: 1 0 250px; 
+  padding: 10px; /* Inner padding */  
+  margin: 10px; /* Outer margin to create space between blocks */  
+  box-sizing: border-box; 
+  text-align: center; /* Center-align text */  
+  background-color: #5F72B6;  
+}  
+  
+.course-item .text p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.add-car-btn {  
+  display: inline-block; 
+  padding: 10px 20px; /* Set inner padding for the button */  
+  background-color: #ffffff; /* Set background color for the button */  
+  color: rgb(0, 0, 0); /* Set text color on the button */  
+  border: none; /* Remove border from the button */  
+  cursor: pointer;  
+  margin-top: 5px;
+  font-size: 20px;  
+  line-height: 1.5;
+}  
+
+#shopping-car {
+  text-align: center; 
+  margin: 20px; 
+}
+
+#shopping-car h3 {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px; 
+}
+
+/* Add gray background to "cart-items" */
+#cart-items {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  background-color: #d3d3d3; /* Gray background */
+  padding: 10px; 
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+}
+
+.cart-item .course-name {
+  margin-right: auto; 
+}
+
+
+.cart-item .price-container {
+  display: flex; 
+  align-items: center;
+  flex-grow: 1; 
+  justify-content: center; 
+  text-align: center; 
+  margin: 0 10px; 
+}
+
+
+.cart-item .remove-btn {
+  background-color: #fafafa;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: auto; 
+}
+
+
+#checkout-btn, #clear-car-btn {
+  background-color: orange; 
+  color: black; 
+  font-weight: bold; /* 粗体字 */
+  padding: 10px 20px; 
+  border: none; /* 移除边框 */
+  cursor: pointer; 
+  margin-top: 30px; 
+  font-size: 18px; 
+}
+
+
+#shopping-car > div:last-child {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-top: 10px; 
+}
+
+
+#checkout-btn:hover, #clear-car-btn:hover {
+  background-color: darkorange; 
+}
+.carbutton-container {
+  display: flex;
+  justify-content: flex-start; 
+  gap: 200px; 
+  margin-top: 10px; 
+}
+
+.remove-btn {
+  background-color: #000000; 
+  color: white; 
+  border: none; 
+  padding: 5px 10px; 
+  cursor: pointer;
+  font-weight: bold; 
+  margin-left: auto;
+}
+
+
+.container {    
+  margin: 20px 0;  
+  padding: 20px;  
+  background-color: #35488C;  
+  color: #fff;  
+  font-size: 25px; 
+  text-align: center;   
+}  
+
+.container form {  
+  display: flex;  
+  flex-direction: column;
+  align-items: center;   
+}  
+
+.form-group {  
+  display: flex; 
+  align-items: center; 
+  margin-bottom: 10px; 
+  margin-top:20px;  
+}  
+
+.form-group label {  
+  margin-right: 60px; 
+  text-align: right;
+  width: 200px;
+  white-space: nowrap;
+}  
+
+.form-group input {  
+  width: 400px;  
+  height: 60px;   
+  padding: 5px; 
+}  
+
+.container button {    
+  background-color: #ffffff;  
+  color: #35488C;  
+  border: none;  
+  padding: 10px 20px; 
+  font-size: 20px;  
+  margin-top:15px;
+  font-weight: 800;
+}  
+  
+.container a {    
+  color: #005BFF;  
+  text-decoration: none;  
+}
+
+
+
+
+.enquiry-box{    
+  margin: 20px 0;  
+  padding: 20px;  
+  background-color: #1A2A65;  
+  color: #fff;  
+  font-size: 25px; 
+  text-align: center;   
+}  
+
+.enquiry-box p{ 
+  text-align: center;   
+  margin-bottom: 40px; 
+  margin-top:40px;  
+}
+
+.enquiry-box form {  
+  display: flex;  
+  flex-direction: column;
+  align-items: center;   
+}  
+
+.enquiry-box label {  
+  margin-bottom: 5px; 
+  display: inline-block; 
+  white-space: nowrap;
+  min-width: 300px;
+}  
+
+.enquiry-box input {  
+  width: 700px;   
+  height: 60px;  
+  padding: 5px; 
+} 
+
+.enquiry-box button {    
+  background-color: #D9D9D9;  
+  color: #000000;  
+  border: none;  
+  padding: 10px 20px; 
+  font-size: 25px;  
+  margin-top:30px;
+  font-weight: 800;
+}  
+  
+.enquiry-box a {    
+  color: #005BFF;  
+  text-decoration: none;  
+}
+
+
+
+
+
+
+main {  
+  padding: 20px;  
+}  
+
+.welcome-section {  
+  text-align: center;  
+}  
+
+
+.project-list {  
+  display: flex;  
+  flex-wrap: wrap;  
+  justify-content: space-around;  
+}  
+
+.project-item {  
+  flex: 1 0 300px;  
+  margin: 10px;  
+  border: 1px solid #ddd;  
+  border-radius: 5px;  
+  padding: 20px;  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+}  
+
+.project-item h2 {  
+  margin-top: 0;  
+}  
+
+.project-item p {  
+  margin-bottom: 40px;  
+} 
+
+.project-item .student-name {  
+  font-style: italic;   
+}  
+
+
+.project-item img {  
+  width: 100%; 
+  height: auto;  
+  margin-bottom: 10px; 
+  border-radius: 5px;  
+  object-fit: cover;  
+}  
