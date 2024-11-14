@@ -1,3 +1,4 @@
+/* Lynn（Guo Linglin） */
 document.addEventListener('DOMContentLoaded', function () {
     const cart = [];
 
